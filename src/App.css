@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  background-color: #232f3e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+  margin: 20px auto; /* Center the container */
+}
+
+.search-bar {
+  width: 80%; /* Set width for search bar */
+  padding: 10px; /* Padding for search bar */
+  border: 1px solid #ccc; /* Border for search bar */
+  border-radius: 5px; /* Rounded corners for search bar */
+  margin-right: 10px; /* Space between search bar and button */
+}
+
+.search-button {
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for button */
+  background-color: #232f3e; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-button:hover {
+  background-color: #1b2530; /* Darker background on hover */
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  margin: 0 0 10px;
+}

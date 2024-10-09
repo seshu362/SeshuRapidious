@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+python-dotenv
+marshmallow
+Flask==2.1.2
+opensearch-py==2.0.0
